@@ -1,3 +1,4 @@
+/* Ajustes da logo */
 .logo-vivo {
     width: 250px;
     height: auto;
@@ -29,7 +30,7 @@ input, select {
     border: 1px solid white;
 }
 
-/* Botão branco com texto roxo */
+/* Botão rosa com texto branco */
 .btn-primary {
     background-color: rgb(202, 71, 152);
     color: white;
@@ -43,6 +44,7 @@ input, select {
     color: rgb(202, 71, 152);
 }
 
+/* Textos do modal de confirmação em preto */
 .modal-title {
     color: black;
 }
