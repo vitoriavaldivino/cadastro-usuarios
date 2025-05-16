@@ -1,0 +1,52 @@
+.logo-vivo {
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 576px) {
+    .logo-vivo {
+      width: 150px;
+      margin-right: 5px;
+    }
+  }
+
+/* Fundo da página roxo e texto branco */
+body {
+    background-color: rgb(49, 10, 49);
+    color: white;
+}
+
+/* Textos específicos brancos */
+h1, h2, label, th, td, input, select {
+    color: white;
+}
+
+/* Campos de formulário com fundo mais escuro e bordas claras */
+input, select {
+    background-color: #3d1c3d;
+    border: 1px solid white;
+}
+
+/* Botão branco com texto roxo */
+.btn-primary {
+    background-color: rgb(202, 71, 152);
+    color: white;
+    border: none;
+    box-shadow: none;
+}
+
+/* Botão com efeito de hover */
+.btn-primary:hover {
+    background-color: white;
+    color: rgb(202, 71, 152);
+}
+
+.modal-title {
+    color: black;
+}
+
+.modal-body {
+    color: black;
+}
